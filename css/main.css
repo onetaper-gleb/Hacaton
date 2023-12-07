@@ -2421,6 +2421,15 @@ h7 {
 
 .footer-area {
   background-color: rgba(0, 33, 114, 0.8);
+  margin-bottom: -200px;
+  margin-left: -200px;
+  margin-right: -200px;
+  padding-bottom: 45px;
+  padding-top: 50px;
+}
+
+.gmail{
+  color: rgb(163, 163, 163);
 }
 
 h6 {
