@@ -48,6 +48,7 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
+  background-color: #e0f2ff;
 }
 
 ol, ul {
@@ -109,14 +110,21 @@ a, a:focus, a:hover {
 }
 h1{
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  color: #ffffff;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
 }
-h2, h3,
-h4, h5, h6 {
+h2, h3, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #4a4a4a;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+h4{
   font-family: "Poppins", sans-serif;
   color: #000000;
   line-height: 1.2em !important;
@@ -126,27 +134,29 @@ h4, h5, h6 {
 }
 h7{
   font-family: "Poppins", sans-serif;
-  color: #b41d1d;
+  color: #4b0101;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
 }
+
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: #ffffff;
 }
 .h7{
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #b41d1d;
+  color: #4b0101;
 }
+
 h1, .h1 {
   font-size: 36px;
 }
@@ -174,6 +184,7 @@ h6, .h6 {
 h7, .h7{
   font-size: 18px;
 }
+
 td, th {
   border-radius: 0px;
 }
@@ -814,6 +825,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  text-align: center;
 }
 
 h5 {
@@ -824,10 +836,12 @@ h6 {
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
   line-height: 1.5em;
 }
-
+h7 {
+  font-size: 18px;
+}
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
   color: #777777;
 }
@@ -1898,7 +1912,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky .default-header {
-  background-color: rgba(240, 240, 240, 0.8);
+  background-color: rgba(61, 61, 61, 0.8);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1906,7 +1920,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .collapse.show {
-  background-color: rgba(240, 240, 240, 0.8);
+  background-color: rgba(138, 138, 138, 0.8);
   padding: 0px 12px;
 }
 
@@ -1960,7 +1974,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-toggler {
-  color: #fff;
+  color: #484848;
   border-color: #fff;
 }
 
@@ -1968,7 +1982,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
-  color: #000000;
+  color: #ffffff;
   padding: 20px;
 }
 
@@ -2184,7 +2198,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-area {
   margin-top: -56px;
   border-radius: 10px;
-  background: url(../img/log-header-img.jpg) center;
+  background: url(../img/about.jpg) center;
   background-size: cover;
 }
 
@@ -2196,7 +2210,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner-area .overlay-bg {
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.604);
+  background-color: rgba(54, 54, 54, 0.716);
 }
 
 .banner-content {
@@ -2204,7 +2218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-content h1 {
-  color: #000000;
+  color: #ffffff;
   font-size: 72px;
   font-weight: 700;
   line-height: 1em;
@@ -2337,7 +2351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-area .filters-content .item {
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   margin-bottom: 30px;
 }
@@ -2416,7 +2430,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-area {
   text-align: center;
   padding-top: 100px;
-  background-color: #ffffff;
+  background-color:  #e0f2ff;
 }
 
 h6 {
