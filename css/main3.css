@@ -2659,3 +2659,10 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+.credits {
+  float: right;
+  color: rgb(163, 163, 163);
+  padding-right: 0px;
+  margin-right: -570px;
+}
