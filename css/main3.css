@@ -2350,13 +2350,13 @@ h7 {
 }
 
 .portfolio-area .filters-content .item {
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   margin-bottom: 30px;
 }
 
 .portfolio-area .filters-content .item img {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 .portfolio-area .filters-content .item .p-inner {
@@ -2372,7 +2372,11 @@ h7 {
 }
 
 .portfolio-area .filters-content .item img {
-  width: 100%;
+  width: 50%;
+}
+
+.portfolio-area .filters-content .item img {
+  text-align: center;
 }
 
 .service-area .overlay-bg {
@@ -2429,8 +2433,8 @@ h7 {
 .footer-area {
   background-color: rgba(0, 26, 91, 0.8);
   margin-bottom: -200px;
-  margin-left: -200px;
-  margin-right: -200px;
+  margin-left: -5%;
+  margin-right: -3.62%;
   padding-bottom: 45px;
   padding-top: 50px;
 }
@@ -2664,5 +2668,5 @@ h6 {
   float: right;
   color: rgb(163, 163, 163);
   padding-right: 0px;
-  margin-right: -570px;
+  margin-right: -130%;
 }

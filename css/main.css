@@ -2420,10 +2420,10 @@ h7 {
 }
 
 .footer-area {
-  background-color: rgba(0, 33, 114, 0.8);
+  background-color: rgba(0, 26, 91, 0.8);
   margin-bottom: -200px;
   margin-left: -200px;
-  margin-right: -200px;
+  margin-right: -180px;
   padding-bottom: 45px;
   padding-top: 50px;
 }
@@ -2652,4 +2652,11 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.credits {
+  float: right;
+  color: rgb(163, 163, 163);
+  padding-right: 0px;
+  margin-right: -130%;
 }
